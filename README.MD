@@ -5,6 +5,10 @@ This python package is a collection of tools for analyzing stock data using Poly
 This is an entry point into my pipeline for further feature engineering and analysis using LSTM models for walk-forward predictions. 
 
 
+
+# To-Do:
+
+- Refactor code to remove redundancies (I split this out originally from monolithic script)
 # Approach
 
 ## Data
