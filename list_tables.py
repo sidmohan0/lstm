@@ -36,3 +36,5 @@ for table in tables:
 
 # Close the connection
 conn.close()
+
+

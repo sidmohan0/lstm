@@ -1,2 +1,4 @@
 .env
 spx.db
+.DS_Store
+```
