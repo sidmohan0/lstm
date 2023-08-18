@@ -2,7 +2,7 @@
 
 This python package is a collection of tools for analyzing stock data using Polygon.io's Stock API.  I collect tickers from the current list of S&P 500 companies and use the API to collect 10 yrs worth of daily candle data for each ticker.   
 
-This is an entry point into my pipeline for further feature engineering and analysis using LSTM models for walk-forward predictions. 
+This is an entry point into my pipeline for further feature engineering and analysis using LSTM models for walk-forward predictions. For more info check out: https://en.wikipedia.org/wiki/Long_short-term_memory
 
 
 
