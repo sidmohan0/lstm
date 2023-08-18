@@ -1,7 +1,12 @@
 import sqlite3
+import os
+import dotenv
+from dotenv import load_dotenv
+
+load_dotenv() # to get DB_PATH from .env file
 
 # Connect to the SQLite database
-conn = sqlite3.connect('spx.db')
+conn = sqlite3.connect(os.environ.get('DB_PATH'))
 cursor = conn.cursor()
 
 # Query to get all table names
